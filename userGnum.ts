@@ -1,8 +1,10 @@
+#! /usr/bin/env node
+
 import  promptSync from "prompt-sync";
 const prompt =promptSync();
 
 let enterNum = parseInt(prompt("Enter your number:"));
-let guessNum = parseInt(prompt("Enter guess number:"));
+let guessNum = parseInt(prompt("Enter guess number between 5-45:"));
 
 
 
